@@ -1,50 +1,796 @@
 Using pre-set license
 Built from '2020.3/staging' branch; Version is '2020.3.4f1 (0abb6314276a) revision 703331'; Using compiler version '192528614'; Build Type 'Release'
-OS: 'Windows 10 Pro; OS build 19044.1586; Version 2009; 64bit' Language: 'es' Physical Memory: 7128 MB
+OS: 'Windows 10 Pro; OS build 19043.928; Version 2009; 64bit' Language: 'es' Physical Memory: 16290 MB
 BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
 
  COMMAND LINE ARGUMENTS:
-Z:\unitys\Unity\Editor\Unity.exe
+D:\Daniel Moreno\Unity Hub\2020.3.4f1\Editor\Unity.exe
 -adb2
 -batchMode
 -noUpm
 -name
 AssetImportWorker0
 -projectPath
-Z:/repositorio metaverso/MetaVersoEcuador/MetaveroEcuador
+D:/Daniel Moreno/nuevo/Metaverso-Ecuador/MetaVersoEcuador/MetaveroEcuador
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-53484
-Successfully changed project path to: Z:/repositorio metaverso/MetaVersoEcuador/MetaveroEcuador
-Z:/repositorio metaverso/MetaVersoEcuador/MetaveroEcuador
+63124
+Successfully changed project path to: D:/Daniel Moreno/nuevo/Metaverso-Ecuador/MetaVersoEcuador/MetaveroEcuador
+D:/Daniel Moreno/nuevo/Metaverso-Ecuador/MetaVersoEcuador/MetaveroEcuador
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 64.82 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.65 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.4f1 (0abb6314276a)
-[Subsystems] Discovering subsystems at path Z:/unitys/Unity/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path Z:/repositorio metaverso/MetaVersoEcuador/MetaveroEcuador/Assets
+[Subsystems] Discovering subsystems at path D:/Daniel Moreno/Unity Hub/2020.3.4f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Daniel Moreno/nuevo/Metaverso-Ecuador/MetaVersoEcuador/MetaveroEcuador/Assets
 GfxDevice: creating device client; threaded=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
-    Renderer: Radeon RX550/550 Series (ID=0x699f)
+    Renderer: Intel(R) HD Graphics 4600 (ID=0x412)
     Vendor:   
-    VRAM:     2028 MB
-    Driver:   30.0.13023.4001
+    VRAM:     2048 MB
+    Driver:   20.19.15.5126
 Initialize mono
-Mono path[0] = 'Z:/unitys/Unity/Editor/Data/Managed'
-Mono path[1] = 'Z:/unitys/Unity/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
-Mono config path = 'Z:/unitys/Unity/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56184
+Mono path[0] = 'D:/Daniel Moreno/Unity Hub/2020.3.4f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Daniel Moreno/Unity Hub/2020.3.4f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'D:/Daniel Moreno/Unity Hub/2020.3.4f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56952
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: Z:/unitys/Unity/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.310298 seconds.
+Register platform support module: D:/Daniel Moreno/Unity Hub/2020.3.4f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.001042 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 58.83 ms, found 0 plugins.
+Refreshing native plugins compatible for Editor in 26.19 ms, found 0 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in 10.727 seconds
+- Completed reload, in  0.996 seconds
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.001062 seconds.
+Registered in 0.000645 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.28 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.270 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.27 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1130 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 57.5 MB.
+System memory in use after: 57.6 MB.
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1572.
+Total: 2.291500 ms (FindLiveObjects: 0.280500 ms CreateObjectMapping: 0.103300 ms MarkObjects: 1.811800 ms  DeleteObjects: 0.094000 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Codigos Daniel/New Material 2.mat
+  artifactKey: Guid(49113fb027ad14d4ea9d553d16530b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/New Material 2.mat using Guid(49113fb027ad14d4ea9d553d16530b39) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3024ad3de43b4476d147527496e53f4b') in 0.445328 seconds
+  Import took 0.448024 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.179799 seconds.
+  path: Assets/Codigos Daniel/controles iconos
+  artifactKey: Guid(69e887c199a53684c8384862f3bd69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos using Guid(69e887c199a53684c8384862f3bd69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db6588182104b347170ccf6e69b3f5d') in 0.001355 seconds
+  Import took 0.016426 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.029521 seconds.
+  path: Assets/Codigos Daniel/controles iconos
+  artifactKey: Guid(69e887c199a53684c8384862f3bd69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos using Guid(69e887c199a53684c8384862f3bd69ca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6db6588182104b347170ccf6e69b3f5d') in 0.001933 seconds
+  Import took 0.004609 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.039207 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 10.png
+  artifactKey: Guid(561977f9db423df4b886f5fdc7c89efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 10.png using Guid(561977f9db423df4b886f5fdc7c89efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36629268077a987946e8b950be9a3a9f') in 0.131941 seconds
+  Import took 0.135292 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000271 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 11.png
+  artifactKey: Guid(25a5e22ebb6dc674db8ddf5d9c9b7c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 11.png using Guid(25a5e22ebb6dc674db8ddf5d9c9b7c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b23e488cb19a1cd7d220a7b6b0d58ea') in 0.005978 seconds
+  Import took 0.008277 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000183 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 15.png
+  artifactKey: Guid(39ecd25d5f16f0b46a93069d05d2140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 15.png using Guid(39ecd25d5f16f0b46a93069d05d2140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '165ee17e6e38fc6541d6dc745f7d06fd') in 0.007085 seconds
+  Import took 0.010427 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000180 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 12.png
+  artifactKey: Guid(c2b9b7248486deb4b9bc25655e466113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 12.png using Guid(c2b9b7248486deb4b9bc25655e466113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca7d17121aa62b6f9bd44f5cf1a53000') in 0.040010 seconds
+  Import took 0.045025 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001152 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 16.png
+  artifactKey: Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 16.png using Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c5dbcc996639c47f1964b86da596333') in 0.036997 seconds
+  Import took 0.051998 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Trazado 142.png
+  artifactKey: Guid(077796357fdd89e43b641dd24da33b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Trazado 142.png using Guid(077796357fdd89e43b641dd24da33b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fb3b46c47bdcbd5599f434335a17b9d') in 0.045352 seconds
+  Import took 0.049258 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000276 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 14.png
+  artifactKey: Guid(77d08dd2a9f58484abee64579d48fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 14.png using Guid(77d08dd2a9f58484abee64579d48fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744f31b2acb752ef4053f529296a7b31') in 0.028546 seconds
+  Import took 0.034281 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000742 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 13.png
+  artifactKey: Guid(1044e0d8aa2aaa34a85ed8660bf7d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 13.png using Guid(1044e0d8aa2aaa34a85ed8660bf7d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1296ad7277555b8e778b65820d5e040') in 0.015697 seconds
+  Import took 0.020663 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006350 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 14.png
+  artifactKey: Guid(77d08dd2a9f58484abee64579d48fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 14.png using Guid(77d08dd2a9f58484abee64579d48fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '744f31b2acb752ef4053f529296a7b31') in 0.049957 seconds
+  Import took 0.054746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.250274 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco
+  artifactKey: Guid(cb801958dc13e0943a2c268ab3e53c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco using Guid(cb801958dc13e0943a2c268ab3e53c40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '255d1c683ed99d911823f324aa3d7678') in 0.001520 seconds
+  Import took 0.004639 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.125595 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 10.png
+  artifactKey: Guid(8c8c12aecb9af254eac4f98c33832d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 10.png using Guid(8c8c12aecb9af254eac4f98c33832d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '616d94d8f2e7c48aef88ca34c87ce17c') in 0.052249 seconds
+  Import took 0.058350 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000953 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 14.png
+  artifactKey: Guid(65476fe3b12f8944c9485685ed1ad1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 14.png using Guid(65476fe3b12f8944c9485685ed1ad1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '151b11ab6c6264f7aac7f67cff025208') in 0.008174 seconds
+  Import took 0.013746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000198 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 13.png
+  artifactKey: Guid(644f6af9127249f4bb0eb133e6986adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 13.png using Guid(644f6af9127249f4bb0eb133e6986adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae3de901371e24f0a77e6c736dc570e2') in 0.081023 seconds
+  Import took 0.094524 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000835 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 11.png
+  artifactKey: Guid(a43304a560835cd41a4837dbb79944bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 11.png using Guid(a43304a560835cd41a4837dbb79944bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b81c555f6ea8054a7dfa017e22743c9') in 0.051356 seconds
+  Import took 0.065224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000517 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Trazado 142.png
+  artifactKey: Guid(b7710182777c88a4e9c240f63635b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Trazado 142.png using Guid(b7710182777c88a4e9c240f63635b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba2bdc952edf7f00f70e122a53146f40') in 0.053615 seconds
+  Import took 0.060774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000701 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 16.png
+  artifactKey: Guid(c5b68bf286f5f794eb1367833495e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 16.png using Guid(c5b68bf286f5f794eb1367833495e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ece374a191491f207078b769803dedbd') in 0.029964 seconds
+  Import took 0.038788 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000382 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 12.png
+  artifactKey: Guid(68641ec3e133c55408cbb5e0a943f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 12.png using Guid(68641ec3e133c55408cbb5e0a943f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '990e0f69fb42df45a32642866ef9fc92') in 0.036420 seconds
+  Import took 0.043695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000601 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 15.png
+  artifactKey: Guid(3c28c86d94544be4fbe2929eb3e7a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 15.png using Guid(3c28c86d94544be4fbe2929eb3e7a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c4e871ead9621f8209fade19afcd383') in 0.019090 seconds
+  Import took 0.027032 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 79.008695 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 16.png
+  artifactKey: Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 16.png using Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1abd02fe80a1a505431b4d4a5a4f8e1e') in 0.019276 seconds
+  Import took 0.075283 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.018450 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 10.png
+  artifactKey: Guid(561977f9db423df4b886f5fdc7c89efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 10.png using Guid(561977f9db423df4b886f5fdc7c89efd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c682eae45515333bfeffb9951cdae8d4') in 0.055008 seconds
+  Import took 0.066877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001225 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 11.png
+  artifactKey: Guid(25a5e22ebb6dc674db8ddf5d9c9b7c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 11.png using Guid(25a5e22ebb6dc674db8ddf5d9c9b7c9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e5c9b47dbf339e1142bb45cb3569bf9') in 0.045584 seconds
+  Import took 0.061072 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001048 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 15.png
+  artifactKey: Guid(39ecd25d5f16f0b46a93069d05d2140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 15.png using Guid(39ecd25d5f16f0b46a93069d05d2140d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67e1703d99c1b491ee431261e39f2b46') in 0.041779 seconds
+  Import took 0.055011 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001113 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 12.png
+  artifactKey: Guid(c2b9b7248486deb4b9bc25655e466113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 12.png using Guid(c2b9b7248486deb4b9bc25655e466113) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1668f2620db5197b2c52a778d1191fe0') in 0.030880 seconds
+  Import took 0.036611 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Trazado 142.png
+  artifactKey: Guid(077796357fdd89e43b641dd24da33b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Trazado 142.png using Guid(077796357fdd89e43b641dd24da33b22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1f907841b0fd9253a2bc24bdbed97a6d') in 0.057305 seconds
+  Import took 0.062014 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 14.png
+  artifactKey: Guid(77d08dd2a9f58484abee64579d48fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 14.png using Guid(77d08dd2a9f58484abee64579d48fce3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e190c104f8867c7cc4b91e47ff702ad5') in 0.031873 seconds
+  Import took 0.036587 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000286 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 13.png
+  artifactKey: Guid(1044e0d8aa2aaa34a85ed8660bf7d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 13.png using Guid(1044e0d8aa2aaa34a85ed8660bf7d379) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6915d3e3c42cdac48f34191bd0adcad') in 0.013499 seconds
+  Import took 0.018390 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 77.136972 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 13.png
+  artifactKey: Guid(644f6af9127249f4bb0eb133e6986adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 13.png using Guid(644f6af9127249f4bb0eb133e6986adc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcec47ac7981e51ebef7df1cc95a8267') in 0.007338 seconds
+  Import took 0.011078 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009500 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 10.png
+  artifactKey: Guid(8c8c12aecb9af254eac4f98c33832d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 10.png using Guid(8c8c12aecb9af254eac4f98c33832d76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b1d612ade83fa843ad6fae768201c28f') in 0.036698 seconds
+  Import took 0.043730 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000400 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 14.png
+  artifactKey: Guid(65476fe3b12f8944c9485685ed1ad1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 14.png using Guid(65476fe3b12f8944c9485685ed1ad1be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '771898efa69e97a6056e26ba6f620359') in 0.091330 seconds
+  Import took 0.094809 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 11.png
+  artifactKey: Guid(a43304a560835cd41a4837dbb79944bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 11.png using Guid(a43304a560835cd41a4837dbb79944bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9be97f8c9c86f19e2f83cfbb449ba48b') in 0.051485 seconds
+  Import took 0.057349 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000322 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Trazado 142.png
+  artifactKey: Guid(b7710182777c88a4e9c240f63635b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Trazado 142.png using Guid(b7710182777c88a4e9c240f63635b1cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01ee71532113014338b2535912466249') in 0.048499 seconds
+  Import took 0.053615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 16.png
+  artifactKey: Guid(c5b68bf286f5f794eb1367833495e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 16.png using Guid(c5b68bf286f5f794eb1367833495e2f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '94a0497051bb199fc54d3c294c4b8311') in 0.055589 seconds
+  Import took 0.060093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 12.png
+  artifactKey: Guid(68641ec3e133c55408cbb5e0a943f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 12.png using Guid(68641ec3e133c55408cbb5e0a943f83d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2402a49e801d07ff2fd4951b54adcc5a') in 0.042817 seconds
+  Import took 0.047755 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000229 seconds.
+  path: Assets/Codigos Daniel/controles iconos/blanco/Grupo 15.png
+  artifactKey: Guid(3c28c86d94544be4fbe2929eb3e7a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/blanco/Grupo 15.png using Guid(3c28c86d94544be4fbe2929eb3e7a3ea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96bc55fd185ec70d058d59fa29f9d3fd') in 0.012785 seconds
+  Import took 0.016966 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.000550 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.26 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.904 seconds
+Platform modules already initialized, skipping
+Switching build target platform(5) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 0.32 ms, found 0 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1162 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 61.8 MB.
+System memory in use after: 61.9 MB.
+
+Unloading 5 unused Assets to reduce memory usage. Loaded Objects now: 1653.
+Total: 2.407300 ms (FindLiveObjects: 0.190200 ms CreateObjectMapping: 0.064200 ms MarkObjects: 2.074400 ms  DeleteObjects: 0.077100 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+========================================================================
+Received Import Request.
+  Time since last request: 162.193631 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 16.png
+  artifactKey: Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 16.png using Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45ab72a8e7675542058aba24688e55f6') in 0.110349 seconds
+  Import took 0.113675 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.910313 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo 16.png
+  artifactKey: Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo 16.png using Guid(db9e99ce85fa8aa4bb93c39f6eba429b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a02a22116798625f732c1dcb040456c7') in 0.023433 seconds
+  Import took 0.031445 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 198.235073 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo-16.png
+  artifactKey: Guid(afef426f77b54574d8958bef2f727975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo-16.png using Guid(afef426f77b54574d8958bef2f727975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6388abfc03068cbf79295ce58319ef8d') in 0.015939 seconds
+  Import took 0.019123 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.527870 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo-16.png
+  artifactKey: Guid(afef426f77b54574d8958bef2f727975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo-16.png using Guid(afef426f77b54574d8958bef2f727975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570523614bda2c2d9cd1b4c3046e3331') in 0.013436 seconds
+  Import took 0.016418 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002354 seconds.
+  path: Assets/Codigos Daniel/controles iconos/Grupo-16.png
+  artifactKey: Guid(afef426f77b54574d8958bef2f727975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/controles iconos/Grupo-16.png using Guid(afef426f77b54574d8958bef2f727975) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '570523614bda2c2d9cd1b4c3046e3331') in 0.042706 seconds
+  Import took 0.049185 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 559.208458 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta
+  artifactKey: Guid(7411421e48ca10045a4e464433458bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta using Guid(7411421e48ca10045a4e464433458bc9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf4cfec881f328ae91f440a0a94a4578') in 0.001617 seconds
+  Import took 0.004746 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076110 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-10.png
+  artifactKey: Guid(337f61f20bd7459419d5bf728e7f8ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-10.png using Guid(337f61f20bd7459419d5bf728e7f8ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c983fff2d2eb2b79f10445aba67dd8b') in 0.026912 seconds
+  Import took 0.035770 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000265 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Trazado 142.png
+  artifactKey: Guid(e9bc2a8240ac1fd439a951f4b02c4e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Trazado 142.png using Guid(e9bc2a8240ac1fd439a951f4b02c4e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e12feb6c929c768ae8556444803ff00f') in 0.007751 seconds
+  Import took 0.011164 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-14.png
+  artifactKey: Guid(0267ecc040b8a0f4d9b574dc127e7727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-14.png using Guid(0267ecc040b8a0f4d9b574dc127e7727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd1230d16aba2a46d62f51d42fdbe13b') in 0.011080 seconds
+  Import took 0.016547 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png
+  artifactKey: Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png using Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6166a1128b9e8c946a9b090881c71c8b') in 0.033049 seconds
+  Import took 0.039152 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000906 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-11.png
+  artifactKey: Guid(78fe3fa752aa32f4d968d4ef25c41a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-11.png using Guid(78fe3fa752aa32f4d968d4ef25c41a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ec549d542736e402a66c9e3156af608') in 0.025132 seconds
+  Import took 0.029071 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000572 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-13.png
+  artifactKey: Guid(46d79c496b1487f4494f7e15a31fd5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-13.png using Guid(46d79c496b1487f4494f7e15a31fd5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ebce027a25958b32cbecb14f7fc1594c') in 0.024583 seconds
+  Import took 0.031576 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000359 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-15.png
+  artifactKey: Guid(f73f2c0f07054034da2af4eeae40b568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-15.png using Guid(f73f2c0f07054034da2af4eeae40b568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '53f04bd61b3a4eba90ec899864309076') in 0.010172 seconds
+  Import took 0.014220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-12.png
+  artifactKey: Guid(658b2e1d9268bf343a9e9b8b459c737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-12.png using Guid(658b2e1d9268bf343a9e9b8b459c737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ca8a3fbee1635102bbad8f9535b55e3') in 0.044567 seconds
+  Import took 0.049502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 10.344592 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-10.png
+  artifactKey: Guid(337f61f20bd7459419d5bf728e7f8ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-10.png using Guid(337f61f20bd7459419d5bf728e7f8ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc04b8af8169f70aa16a94485fdc11ba') in 0.009861 seconds
+  Import took 0.013597 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.012686 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-10.png
+  artifactKey: Guid(337f61f20bd7459419d5bf728e7f8ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-10.png using Guid(337f61f20bd7459419d5bf728e7f8ab1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc04b8af8169f70aa16a94485fdc11ba') in 0.084325 seconds
+  Import took 0.088502 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000331 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Trazado 142.png
+  artifactKey: Guid(e9bc2a8240ac1fd439a951f4b02c4e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Trazado 142.png using Guid(e9bc2a8240ac1fd439a951f4b02c4e75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '342b09826f636ee293e02e836be25a58') in 0.027259 seconds
+  Import took 0.030667 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000497 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-14.png
+  artifactKey: Guid(0267ecc040b8a0f4d9b574dc127e7727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-14.png using Guid(0267ecc040b8a0f4d9b574dc127e7727) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f8724623da70e4dece3e10c6a715ad4') in 0.031237 seconds
+  Import took 0.039288 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000333 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png
+  artifactKey: Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png using Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '80c2992d71522a1876461ee7e3e4acb2') in 0.064660 seconds
+  Import took 0.073459 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000893 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-11.png
+  artifactKey: Guid(78fe3fa752aa32f4d968d4ef25c41a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-11.png using Guid(78fe3fa752aa32f4d968d4ef25c41a28) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a99fa4357a8f174cd9b28795a17c846f') in 0.026857 seconds
+  Import took 0.032375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-13.png
+  artifactKey: Guid(46d79c496b1487f4494f7e15a31fd5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-13.png using Guid(46d79c496b1487f4494f7e15a31fd5ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ddab6b589c36fd749eb10cf8a95ee0bd') in 0.047204 seconds
+  Import took 0.050711 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-15.png
+  artifactKey: Guid(f73f2c0f07054034da2af4eeae40b568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-15.png using Guid(f73f2c0f07054034da2af4eeae40b568) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '393cb081d2c44e217bdeaad96c761916') in 0.046191 seconds
+  Import took 0.050108 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000328 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-12.png
+  artifactKey: Guid(658b2e1d9268bf343a9e9b8b459c737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-12.png using Guid(658b2e1d9268bf343a9e9b8b459c737c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9444124e4870ec42e9c4ed7f9ceaf68f') in 0.054153 seconds
+  Import took 0.059698 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 89.068778 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png
+  artifactKey: Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png using Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '550f69e620fa2c523656c27d2ff1dd85') in 0.029836 seconds
+  Import took 0.034692 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.947369 seconds.
+  path: Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png
+  artifactKey: Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Nueva carpeta/Grupo-16.png using Guid(f69306883320a0f469a3c7ddede5b6ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf8af8492c94efb258c2645333412c89') in 0.023460 seconds
+  Import took 0.032008 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 626.334499 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117226c42332af3f31c8dd566f2f49c2') in 0.019398 seconds
+  Import took 0.023935 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png
+  artifactKey: Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain.png using Guid(097782735540f2d4db5606eae04ae6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5fde0634db66368a3de72fa21bb2aa72') in 0.103954 seconds
+  Import took 0.107869 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png
+  artifactKey: Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged_Arrows.png using Guid(9332cf0d233636a40a024382720294a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b58080596353a4fa53bdf77f51787603') in 0.055529 seconds
+  Import took 0.063253 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000369 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png
+  artifactKey: Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Outline_Arrows.png using Guid(5eda94a9dcf71e445ad17e3c065d1460) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c645cc37e47a24230d5086b46fabc6bf') in 0.042977 seconds
+  Import took 0.048392 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000599 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Ridged.png
+  artifactKey: Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Ridged.png using Guid(3a74f678ee8f3bd49aacf3de1ae4bcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72f895d4a02834aeea7353699d4c2701') in 0.054964 seconds
+  Import took 0.063987 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000509 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Outline.png
+  artifactKey: Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Outline.png using Guid(085185b08a40a924985bc0e4176edea6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15f02237fadf56381b1170da1570e4eb') in 0.052576 seconds
+  Import took 0.055624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000416 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png
+  artifactKey: Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Ridged_Arrows.png using Guid(a6c56474666ce0647bdb766e9b4764b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c55850cef4fb240a88f29d7118aeae9') in 0.057721 seconds
+  Import took 0.063272 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000243 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png
+  artifactKey: Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain_Arrows.png using Guid(3bf6d9f920f7458448a390f80318ebe6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '71e20e1796e1090dee39200013c9ae57') in 0.056627 seconds
+  Import took 0.060893 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000190 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png
+  artifactKey: Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline.png using Guid(5b56d9fa0e8bd6e409ed188db38a692c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '117226c42332af3f31c8dd566f2f49c2') in 0.051999 seconds
+  Import took 0.054351 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000193 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png
+  artifactKey: Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain.png using Guid(84487d73ca4b791498332d8f6858417f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4177151650977ae2b850365828effd00') in 0.065490 seconds
+  Import took 0.067845 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000173 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png
+  artifactKey: Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Plain.png using Guid(ab6db91373811284caeba2e9472fa9c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd15df66120bfbf2b516604cb6bae8c73') in 0.030203 seconds
+  Import took 0.037953 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001261 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png
+  artifactKey: Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline_Arrows.png using Guid(7927b9032dc11e841af3f9a1353d7ecd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '89ea19d93fd4431ac3d500633b11eac0') in 0.029880 seconds
+  Import took 0.036517 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000199 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png
+  artifactKey: Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Plain_Arrows.png using Guid(2a1f3cba20f3e11498474a705db12fde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '488232f99e3eb30c43f839510546fdd2') in 0.049771 seconds
+  Import took 0.052196 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000224 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png
+  artifactKey: Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged.png using Guid(54628aafa20f64b40ae661038ee7abf0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c14ce1ebbcf75d58dc07dd52ddc8646') in 0.024791 seconds
+  Import took 0.028112 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000526 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png
+  artifactKey: Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged_Arrows.png using Guid(b8467ea5fbaf9ba42908de6411bd443d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5f24d289d7bb8ada0a9d6136fdaaf2a0') in 0.055651 seconds
+  Import took 0.058992 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png
+  artifactKey: Guid(48c0d4d6bebaa934384b07aa1e2f8184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Outline_Arrows.png using Guid(48c0d4d6bebaa934384b07aa1e2f8184) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb0815895f6e2d6e2184e0b8c34259b6') in 0.062921 seconds
+  Import took 0.065486 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000612 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png
+  artifactKey: Guid(f353d42d1db27ff42b78b28efd86b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Plain_Arrows.png using Guid(f353d42d1db27ff42b78b28efd86b316) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6f617507422ab30939f00eb66ab77ebe') in 0.050604 seconds
+  Import took 0.056602 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000566 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png
+  artifactKey: Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/All Axis Backgrounds/AllAxis_Ridged_Arrows.png using Guid(4cbc879550e5e374a925e2e0a84d6f3c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '74e0307471b0ba74e09ee6d4b7e8d321') in 0.056218 seconds
+  Import took 0.059365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000330 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png
+  artifactKey: Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline_Arrows.png using Guid(c615706690ca87043ad593475e6db7ec) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '23e23af960705c6244fbacc0dba82761') in 0.063198 seconds
+  Import took 0.066912 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000516 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png
+  artifactKey: Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Ridged.png using Guid(6304ad603f150b649b764d29bbc2a87b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16ae57205b6f22af4561e20828ec8f5d') in 0.064449 seconds
+  Import took 0.068432 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000275 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+  artifactKey: Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png using Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e64fa3008c695ef478a12eb3ec0b2d') in 0.063959 seconds
+  Import took 0.066623 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png
+  artifactKey: Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Outline.png using Guid(f054197ef28924b4986cbd91de2ab054) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '212d508da8cc381760c99eb9f9ede7ec') in 0.062548 seconds
+  Import took 0.067091 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000207 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png
+  artifactKey: Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Vertical Backgrounds/Vertical_Ridged.png using Guid(08c1fa6351174a9439d97cfc9d3307cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82e64fa3008c695ef478a12eb3ec0b2d') in 0.020670 seconds
+  Import took 0.026999 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Plain.png
+  artifactKey: Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Handles/Handle_Plain.png using Guid(010a6e5305fa7004f89c5d317b7b47d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2b183b23c9572cd1c9732fe720063639') in 0.041227 seconds
+  Import took 0.045926 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000184 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png
+  artifactKey: Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Plain_Arrows.png using Guid(c8585b68a92b5d440992ddd7d1b1a3d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b0913207ab1ce4b077ddb78a185f6b2') in 0.055018 seconds
+  Import took 0.057707 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000175 seconds.
+  path: Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png
+  artifactKey: Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Codigos Daniel/Joystick Pack/Sprites/Horizontal Backgrounds/Horizontal_Outline.png using Guid(cd0a2c1b2c014ba4c80c1df786e150e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9422a379777edadaf5b25fbec5f4788') in 0.057118 seconds
+  Import took 0.059663 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
