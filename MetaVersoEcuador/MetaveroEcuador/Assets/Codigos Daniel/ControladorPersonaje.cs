@@ -21,7 +21,6 @@ public class ControladorPersonaje : MonoBehaviour
     public Vector3 golpeNormal;
     public float velocidadDeslizamiento;
     public float fuerzaDeslizamiento;
-    public bool p;
     public bool saltar=false;
     void Start()
     {
@@ -29,12 +28,11 @@ public class ControladorPersonaje : MonoBehaviour
         camara = Camera.main;
     }
 
+
     // Update is called once per frame
     void Update()
     {
-        p = CharacterController.isGrounded;
-        velocidadHorizontal = joystick.Horizontal;
-        velocidadVertical = joystick.Vertical;
+        CalcularMovimiento();
 
         inputJugador = new Vector3(velocidadHorizontal, 0, velocidadVertical);
         inputJugador = Vector3.ClampMagnitude(inputJugador, 1);
@@ -48,6 +46,19 @@ public class ControladorPersonaje : MonoBehaviour
 
         CharacterController.Move(direccionJugador*Time.deltaTime);
 
+    }
+    void CalcularMovimiento()
+    {
+#if UNITY_ANDROID
+        velocidadHorizontal = joystick.Horizontal;
+        velocidadVertical = joystick.Vertical;
+
+#endif
+#if UNITY_STANDALONE
+        velocidadHorizontal = Input.GetAxis("Horizontal");
+        velocidadVertical = Input.GetAxis("Vertical");
+
+#endif
     }
     void DireccionDeCamara()
     {
