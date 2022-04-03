@@ -23,10 +23,13 @@ public class ControladorPersonaje : MonoBehaviour
     public float fuerzaDeslizamiento;
     public bool saltar=false;
     public bool correr=false;
+
+    public Animator controlAnimaciones;
     void Start()
     {
         CharacterController = GetComponent<CharacterController>();
         camara = Camera.main;
+        controlAnimaciones = GetComponent<Animator>();
     }
 
 
@@ -37,6 +40,8 @@ public class ControladorPersonaje : MonoBehaviour
 
         inputJugador = new Vector3(velocidadHorizontal, 0, velocidadVertical);
         inputJugador = Vector3.ClampMagnitude(inputJugador, 1);
+
+        controlAnimaciones.SetFloat("Velocidad Jugador", inputJugador.magnitude * velocidadDeMovimiento);
 
         DireccionDeCamara();
 
@@ -89,7 +94,9 @@ public class ControladorPersonaje : MonoBehaviour
         {
             velocidadDeCaida -= gravedad * Time.deltaTime;
             direccionJugador.y = velocidadDeCaida;
+            controlAnimaciones.SetFloat("Velocidad Caida", CharacterController.velocity.y);
         }
+        controlAnimaciones.SetBool("Suelo", CharacterController.isGrounded);
         Deslizar();
     }
     public void ActividadesJugador()
@@ -99,6 +106,7 @@ public class ControladorPersonaje : MonoBehaviour
             velocidadDeCaida = fuerzaDeSalto;
             direccionJugador.y = velocidadDeCaida;
             saltar = false;
+            controlAnimaciones.SetTrigger("Salto");
         }
     }
     public void Salto()

@@ -10,13 +10,10 @@ public class EventosBotones : MonoBehaviour
     {
         controlPersonaje.correr =true;
         controlPersonaje.velocidadVertical = 1;
-        Debug.Log("boton correr");
     }
     public void BotonDejarDeCorrer()
     {
         controlPersonaje.correr = false;
-
         controlPersonaje.velocidadVertical = 0;
-        Debug.Log("boton Dejar correr");
     }
 }

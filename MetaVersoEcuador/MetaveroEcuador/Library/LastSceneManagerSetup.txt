@@ -1,5 +1,5 @@
 sceneSetups:
-- path: Assets/HUD/HudScene.unity
+- path: Assets/Codigos Daniel/GYMPruebas.unity
   isLoaded: 1
   isActive: 1
   isSubScene: 0
