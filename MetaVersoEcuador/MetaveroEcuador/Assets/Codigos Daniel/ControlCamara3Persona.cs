@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using Cinemachine;
 
 public class ControlCamara3Persona : MonoBehaviour
 {
@@ -11,14 +12,17 @@ public class ControlCamara3Persona : MonoBehaviour
     public float sencibilidad;
     public float cam;
     public float rotacionCamara;
+    public CinemachineFreeLook camaraCineMachine;
 
     private void LateUpdate()
     {
-        cam = joystick.Horizontal;
-        transform.position = Vector3.Lerp(transform.position, jugador.position + distanciaCamara, valorLerp);
-        MovimientoCamara();
-        distanciaCamara = Quaternion.AngleAxis(rotacionCamara * sencibilidad, Vector3.up) * distanciaCamara;
-        transform.LookAt(jugador);
+        /* cam = joystick.Horizontal;
+         transform.position = Vector3.Lerp(transform.position, jugador.position + distanciaCamara, valorLerp);
+         MovimientoCamara();
+         distanciaCamara = Quaternion.AngleAxis(rotacionCamara * sencibilidad, Vector3.up) * distanciaCamara;
+         transform.LookAt(jugador);*/
+        camaraCineMachine.m_YAxis.Value = joystick.Vertical+0.5f;
+        camaraCineMachine.m_XAxis.Value = joystick.Horizontal;
     }
     void MovimientoCamara()
     {

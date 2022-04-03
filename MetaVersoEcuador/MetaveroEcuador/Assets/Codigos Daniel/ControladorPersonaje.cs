@@ -56,12 +56,10 @@ public class ControladorPersonaje : MonoBehaviour
         CharacterController.Move(direccionJugador*Time.deltaTime);
 
     }
-    void CalcularMovimiento()
+    void CalcularMovimiento()// tomador de input para el movimiento 
     {
         if (correr==false)
         {
-
-        
 #if UNITY_ANDROID
         velocidadHorizontal = joystick.Horizontal;
         velocidadVertical = joystick.Vertical;
