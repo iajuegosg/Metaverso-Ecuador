@@ -10,12 +10,25 @@ public class ControlCamara3Persona : MonoBehaviour
     public FixedJoystick joystick;
     public float sencibilidad;
     public float cam;
+    public float rotacionCamara;
 
     private void LateUpdate()
     {
         cam = joystick.Horizontal;
         transform.position = Vector3.Lerp(transform.position, jugador.position + distanciaCamara, valorLerp);
-        distanciaCamara = Quaternion.AngleAxis(-joystick.Horizontal * sencibilidad, Vector3.up) * distanciaCamara;
+        MovimientoCamara();
+        distanciaCamara = Quaternion.AngleAxis(rotacionCamara * sencibilidad, Vector3.up) * distanciaCamara;
         transform.LookAt(jugador);
+    }
+    void MovimientoCamara()
+    {
+#if UNITY_ANDROID
+        rotacionCamara = joystick.Horizontal;
+
+#endif
+#if UNITY_STANDALONE
+        rotacionCamara = Input.GetAxis("Mouse X");
+
+#endif
     }
 }
