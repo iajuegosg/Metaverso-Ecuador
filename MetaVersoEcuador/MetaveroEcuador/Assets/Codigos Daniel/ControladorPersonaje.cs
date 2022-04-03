@@ -22,6 +22,7 @@ public class ControladorPersonaje : MonoBehaviour
     public float velocidadDeslizamiento;
     public float fuerzaDeslizamiento;
     public bool saltar=false;
+    public bool correr=false;
     void Start()
     {
         CharacterController = GetComponent<CharacterController>();
@@ -36,11 +37,14 @@ public class ControladorPersonaje : MonoBehaviour
 
         inputJugador = new Vector3(velocidadHorizontal, 0, velocidadVertical);
         inputJugador = Vector3.ClampMagnitude(inputJugador, 1);
+
         DireccionDeCamara();
 
         direccionJugador = inputJugador.x * camaraDerecha + inputJugador.z * camaraDeFrente;
         direccionJugador = direccionJugador * velocidadDeMovimiento;
+
         CharacterController.transform.LookAt(CharacterController.transform.position + direccionJugador);
+
         Gravedad();
         ActividadesJugador();
 
@@ -49,6 +53,10 @@ public class ControladorPersonaje : MonoBehaviour
     }
     void CalcularMovimiento()
     {
+        if (correr==false)
+        {
+
+        
 #if UNITY_ANDROID
         velocidadHorizontal = joystick.Horizontal;
         velocidadVertical = joystick.Vertical;
@@ -59,6 +67,7 @@ public class ControladorPersonaje : MonoBehaviour
         velocidadVertical = Input.GetAxis("Vertical");
 
 #endif
+        }
     }
     void DireccionDeCamara()
     {
