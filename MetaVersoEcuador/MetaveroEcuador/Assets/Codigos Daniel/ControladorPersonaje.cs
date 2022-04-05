@@ -1,8 +1,10 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
-
-public class ControladorPersonaje : MonoBehaviour
+using Photon.Pun;
+using Photon.Realtime;
+using Cinemachine;
+public class ControladorPersonaje : Photon.Pun.MonoBehaviourPun
 {
     public float velocidadVertical, velocidadHorizontal;
     public CharacterController CharacterController;
@@ -10,7 +12,7 @@ public class ControladorPersonaje : MonoBehaviour
     public float velocidadDeMovimiento;
     public Vector3 inputJugador;
 
-    public Camera camara;
+    public GameObject camara;
     public Vector3 camaraDeFrente;
     public Vector3 camaraDerecha;
     public Vector3 direccionJugador;
@@ -23,46 +25,75 @@ public class ControladorPersonaje : MonoBehaviour
     public float fuerzaDeslizamiento;
     public bool saltar=false;
     public bool correr=false;
-
     public Animator controlAnimaciones;
+    ////////configuracion photon
+    public PhotonView myView;
+    public CinemachineFreeLook myCamera;
+    public bool controles;
+    public GameObject tarjetCam;
+    private void Awake()
+    {
+        myView = GetComponent<PhotonView>();
+        myCamera = GameObject.Find("CM FreeLook1").GetComponent<CinemachineFreeLook>();
+        camara = GameObject.Find("Main Camera");
+        CharacterController = GetComponent<CharacterController>();
+        controlAnimaciones = GetComponent<Animator>();
+        joystick = GameObject.Find("Canvas/Panel Control Joystick/Joystick movimiento personaje ").GetComponent<FixedJoystick>();
+    }
     void Start()
     {
-        CharacterController = GetComponent<CharacterController>();
-        camara = Camera.main;
-        controlAnimaciones = GetComponent<Animator>();
+        print(1);
+        if (myView.IsMine)
+        {
+            myCamera.Follow = tarjetCam.transform;
+            myCamera.LookAt = tarjetCam.transform;
+            camara.GetComponent<ControlCamara3Persona>().jugador = tarjetCam.transform;
+        }
     }
 
 
     // Update is called once per frame
     void Update()
     {
-        CalcularMovimiento();
+        if (myView.IsMine)
+        {
+            if (controles)
+            {
+                myCamera.Follow = tarjetCam.transform;
+                myCamera.LookAt = tarjetCam.transform;
+                camara.GetComponent<ControlCamara3Persona>().jugador = tarjetCam.transform;
+                controles = false;
+            }
 
-        inputJugador = new Vector3(velocidadHorizontal, 0, velocidadVertical);
-        inputJugador = Vector3.ClampMagnitude(inputJugador, 1);
+            CalcularMovimiento();
 
-        controlAnimaciones.SetFloat("Velocidad Jugador", inputJugador.magnitude * velocidadDeMovimiento);
+            inputJugador = new Vector3(velocidadHorizontal, 0, velocidadVertical);
+            inputJugador = Vector3.ClampMagnitude(inputJugador, 1);
 
-        DireccionDeCamara();
+            controlAnimaciones.SetFloat("Velocidad Jugador", inputJugador.magnitude * velocidadDeMovimiento);
 
-        direccionJugador = inputJugador.x * camaraDerecha + inputJugador.z * camaraDeFrente;
-        direccionJugador = direccionJugador * velocidadDeMovimiento;
+            DireccionDeCamara();
 
-        CharacterController.transform.LookAt(CharacterController.transform.position + direccionJugador);
+            direccionJugador = inputJugador.x * camaraDerecha + inputJugador.z * camaraDeFrente;
+            direccionJugador = direccionJugador * velocidadDeMovimiento;
 
-        Gravedad();
-        ActividadesJugador();
+            CharacterController.transform.LookAt(CharacterController.transform.position + direccionJugador);
 
-        CharacterController.Move(direccionJugador*Time.deltaTime);
+            Gravedad();
+            ActividadesJugador();
 
+            CharacterController.Move(direccionJugador * Time.deltaTime);
+        }
     }
     void CalcularMovimiento()// tomador de input para el movimiento 
     {
-        if (correr==false)
+        if (myView.IsMine)
         {
+            if (correr == false)
+            {
 #if UNITY_ANDROID
-        velocidadHorizontal = joystick.Horizontal;
-        velocidadVertical = joystick.Vertical;
+                velocidadHorizontal = joystick.Horizontal;
+                velocidadVertical = joystick.Vertical;
 
 #endif
 #if UNITY_STANDALONE
@@ -70,7 +101,9 @@ public class ControladorPersonaje : MonoBehaviour
         velocidadVertical = Input.GetAxis("Vertical");
 
 #endif
+            }
         }
+
     }
     void DireccionDeCamara()
     {

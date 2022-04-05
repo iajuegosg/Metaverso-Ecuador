@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/SampleScene.unity
+    guid: 9fc0d4010bbf28b4594072e72b8655ab
+  - enabled: 1
     path: Assets/Codigos Daniel/GYMPruebas.unity
     guid: 061ca092f4dc31d40bef10b15f26777b
   m_configObjects: {}

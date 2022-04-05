@@ -13,7 +13,10 @@ public class ControlCamara3Persona : MonoBehaviour
     public float cam;
     public float rotacionCamara;
     public CinemachineFreeLook camaraCineMachine;
-
+    private void Awake()
+    {
+        joystick = GameObject.Find("Canvas/Panel Control Joystick/Joystick movimiento camara ").GetComponent<FixedJoystick>();
+    }
     private void LateUpdate()
     {
         /* cam = joystick.Horizontal;

@@ -2,17 +2,12 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Login : MonoBehaviour
+[CreateAssetMenu(fileName = "login", menuName = "Configuracion", order = 1)]
+public class Login : ScriptableObject
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public bool recuerdame;
+    public string nickName;
+    public string correo;
+    public string contraseña;
 
-    // Update is called once per frame
-    void Update()
-    {
-        
-    }
 }
