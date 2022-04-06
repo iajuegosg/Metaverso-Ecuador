@@ -31,6 +31,7 @@ public class ControladorPersonaje : Photon.Pun.MonoBehaviourPun
     public CinemachineFreeLook myCamera;
     public bool controles;
     public GameObject tarjetCam;
+
     private void Awake()
     {
         myView = GetComponent<PhotonView>();
